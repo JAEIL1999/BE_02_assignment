@@ -90,7 +90,7 @@
 
 ### 4. 일정 수정
 - **URL**: PUT /schedules/{id}
-- **요청 값**: Path Variable: id(int)
+- **요청 값**: Path Variable: id(int) / 
 Body(JSON): todo(string), writer(string), password(string)
 - **반환 값**: 상태 메시지
 - **Request Body**
@@ -107,7 +107,7 @@ Body(JSON): todo(string), writer(string), password(string)
 
 ### 5. 일정 삭제
 - **URL**: DELETE /schedules/{id}
-- **요청 값**: Path Variable: id(int)
+- **요청 값**: Path Variable: id(int) / 
 Query Param: password(string)
 - **반환 값**: 상태 메시지
 - **인증**: 비밀번호 일치 여부
