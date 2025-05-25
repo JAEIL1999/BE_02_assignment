@@ -1,5 +1,30 @@
 # BE 2차 - 일정 관리 앱 만들기
 
+## Structure
+```
+📂src
+├── 📂main
+│   ├── 📂java
+│   │   └── 📂com.example.be_assignment_02
+│   │       ├── 📂controller
+│   │       │   └── ScheduleController.java
+│   │       ├── 📂service
+│   │       │   └── ScheduleService.java
+│   │       ├── 📂repository
+│   │       │   └── ScheduleRepository.java
+│   │       ├── 📂dto
+│   │       │   ├── ScheduleRequestDto.java
+│   │       │   ├── ScheduleResponseDto.java
+│   │       │   └── ScheduleQueryConditionDto.java
+│   │       └── 📂model
+│   │           └── Schedule.java
+│   └── 📂resources
+│       ├── application.properties
+│       └── schema.sql (Spring Boot 자동 초기화용)
+├── 📂test (테스트 코드, 따로 코딩을 진행하지는 않음)
+└── schedule.sql (루트 폴더, 수동 초기화용)
+```
+
 ## ERD
 ![image](https://github.com/user-attachments/assets/78e4a671-8170-45c7-9dd4-ae9a9c5625e2)
 
