@@ -16,8 +16,9 @@
 │   │       │   ├── ScheduleRequestDto.java
 │   │       │   ├── ScheduleResponseDto.java
 │   │       │   └── ScheduleQueryConditionDto.java
-│   │       └── 📂model
-│   │           └── Schedule.java
+│   │       ├── 📂model
+│   │       |    └── Schedule.java
+|   |       └── ▶️ BeAssignment02Application.java(실행파일)
 │   └── 📂resources
 │       ├── application.properties
 │       └── schema.sql (Spring Boot 자동 초기화용)
